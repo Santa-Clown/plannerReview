@@ -1,0 +1,138 @@
+
+
+
+
+
+
+.sideNav{
+    background: #ffffff;
+    box-shadow: 0px 0px 5px #8d8d8d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    bottom: 0;
+
+    
+}
+
+.addBut{
+    display: block;
+}
+
+/* 
+.sideNav{
+    background: #ffffff;
+    box-shadow: 0px -10px 5px #8d8d8d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+} */
+.sideNav  button{
+    font-size: 1.6rem;
+    background: rgba(163, 162, 162, 0);
+    border: 0px;
+    cursor: pointer;
+    color: rgb(97, 97, 97);
+  
+
+}
+
+.sideNav  button:hover{
+
+    color: rgb(0, 0, 0);
+    
+}
+
+.sideNav div{
+    
+    width: auto;
+    /* position: absolute; */
+    
+    
+    display: flex;
+   
+    align-items: center;
+    gap: 3vh;
+
+}
+
+.sideNav div button{
+    display: flex;
+    align-items: center;
+}
+.signupButt{
+    padding-bottom: 0vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    padding-right: 4vw;
+    
+}
+
+@media  (min-width:1280px){
+    .signupButt{
+        padding-bottom: 2vh;
+        position: relative;
+        padding-right: 0vw;
+    }
+    .sideNav div{
+    
+        width: 5vw;
+        /* position: absolute; */
+        
+        
+        display: flex;
+       
+        align-items: center;
+        gap: 3vh;
+    
+    }
+    .sideNav  button{
+        font-size: 2.8rem;
+        background: rgba(163, 162, 162, 0);
+        border: 0px;
+        cursor: pointer;
+        color: rgb(97, 97, 97);
+    
+    }
+    .sideNav div{
+    
+        width: 5vw;
+        /* position: absolute; */
+        
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3vh;
+        padding-top: 5vh;
+    }
+
+
+}
+
+@media  (min-width:1280px) {
+    .sideNav{
+        background: #ffffff;
+        box-shadow: 0px -10px 5px #8d8d8d;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        width: 5vw;
+        height: 100vh;
+        bottom: 0;
+        
+    }
+    .addBut{
+        display: none !important;
+    }
+}

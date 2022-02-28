@@ -1,0 +1,13 @@
+.rowOne{
+    height: 8%;
+    
+}
+.rowTwo{
+    height: 8%;
+    border-top: 1px solid rgb(214, 214, 214);
+    border-bottom: 1px solid rgb(214, 214, 214);
+    width: 100%;
+}
+.rowThree{
+    text-align: start;
+}

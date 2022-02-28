@@ -1,0 +1,13 @@
+.notes p{
+    width: 40vw;
+    height: 5vh;
+    ack
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

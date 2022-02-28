@@ -1,0 +1,116 @@
+span.col0{
+    width: 7px;
+    /* background: rgb(30, 124, 21); */
+    display: block;
+    border-radius: 20px 0 0 20px;
+    
+    
+}
+
+
+span.col1{
+    width: 29%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: clamp(0.4rem , 1vw , 1.2rem);
+    
+    /* border-radius: 20px 0 0 20px; */
+    
+    
+}
+span.col1 h6{
+    margin: 0;
+    color: gray;
+    font-size: 12px;
+}
+span.col1 h4{
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+span.col2{
+    width: 30%;
+    background: #ffffff;
+   
+    display: flex;
+    font-size: clamp(0.8rem , 1vw , 1.4rem);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    text-align: center ;
+}
+span.col2 h6{
+    font-size: 12px;
+    margin: 0;
+    color: gray;
+}
+
+span.col2 h4{
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+/* span.col2:nth-child(1){
+    width: 30%;
+    background: chartreuse;
+    display: block;
+}
+span.col2:nth-child(2){
+    width: 70%;
+    display: block;
+    background: crimson;
+} */
+
+
+
+
+span.col3{
+    width: 30%;
+    background: #ffffff;
+    display: block;
+}
+span.col4{
+    width: 10%;
+    font-size: 3rem;
+    display: flex;
+    border-radius: 0 20px 20px 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+span.col4 button{
+    
+    font-size: 1.8rem;
+    border: none;
+    background: none;
+    color: rgb(27, 27, 27);
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.colums{
+    
+    display: flex;
+    height: 10vh;
+    /* border-bottom: 1px solid black ; */
+    color: rgb(0, 0, 0) !important;
+   
+    margin-top: 3vh;
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;
+}
+
+.sepLine{
+    height: 60%;
+    width: 1px;
+    border-right: 2px solid rgb(214, 214, 214);
+    margin: auto;
+    border-radius: 20px;
+    
+}

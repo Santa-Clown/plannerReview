@@ -1,0 +1,36 @@
+{
+  "name": "planner",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@devexpress/dx-react-core": "^3.0.0",
+    "@devexpress/dx-react-scheduler": "^3.0.0",
+    "@devexpress/dx-react-scheduler-material-ui": "^3.0.0",
+    "@syncfusion/ej2-data": "^19.4.48",
+    "@syncfusion/ej2-react-calendars": "^19.4.50",
+    "@syncfusion/ej2-react-dropdowns": "^19.4.48",
+    "@syncfusion/ej2-react-navigations": "^19.4.48",
+    "@syncfusion/ej2-react-schedule": "^19.4.48",
+    "cldr-data": "^36.0.0",
+    "firebase": "^9.6.3",
+    "jquery": "^3.6.0",
+    "next": "12.0.8",
+    "node": "16.13.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-firebase-hooks": "^4.0.2",
+    "react-firebaseui": "^6.0.0",
+    "react-icons": "^4.3.1",
+    "smart-webcomponents-react": "^12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.7.0",
+    "eslint-config-next": "12.0.8",
+    "systemjs-plugin-json": "^0.3.0"
+  }
+}

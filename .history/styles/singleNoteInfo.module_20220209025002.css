@@ -1,0 +1,19 @@
+.rowOne{
+    height: 8vh;
+    
+}
+.rowTwo{
+    height: 8vh;
+    border-top: 1px solid rgb(214, 214, 214);
+    
+    width: 100%;
+}
+.rowThree{
+    border-top: 1px solid rgb(214, 214, 214);
+    width: 100%;
+    padding: 30px;
+
+}
+.rowThree div{
+    height: 8vh;
+}

@@ -1,0 +1,48 @@
+import {DropDownListComponent} from '@syncfusion/ej2-react-dropdowns' 
+ import { DateTimePickerComponent } from '@syncfusion/ej2-react-calendars';
+ 
+ const NoteScheduler = (props) => {
+    return (
+    <tbody>
+
+        <tr>
+           <td> New Event</td>
+           
+            
+        </tr>
+       <tr>
+           <td><input  type="text" /></td>
+           <td> <input name='Subject' type="text" /> </td>
+       </tr>
+        <tr>
+            <td className='e-textlabel'>Status</td>
+            <td>
+                <DropDownListComponent id='EventType' dataSource={['New','Requested','Confirmed']}
+                placeholder="Choose Bitch" data-name='EventType' value={props.EventType || null} >
+
+                </DropDownListComponent>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <DateTimePickerComponent id='StartTime' data-name='StartTime'
+                value={new Date(props.startTime || props.StartTime)} format='dd/MM/yy hh:mm a'
+                ></DateTimePickerComponent>
+            </td>
+            <td><DateTimePickerComponent id='EndTime' data-name='EndTime' 
+            value={new Date(props.endTime || props.EndTime)} format='dd/MM/yy hh:mm a'
+            ></DateTimePickerComponent></td>
+        </tr>
+        <tr><td>
+            <textarea name="Description" id="" cols="30" rows="10"></textarea>
+            </td></tr>
+
+
+
+
+
+
+    </tbody>);
+}
+
+export default NoteScheduler;

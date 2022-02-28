@@ -1,0 +1,173 @@
+.rowOne{
+    height: 8vh;
+     border-top: 1px solid rgba(214, 214, 214,0);
+   
+    
+}
+
+.rowTwo{
+    height: 8vh;
+    border-top: 1px solid rgb(214, 214, 214);
+    border-bottom: 1px solid rgb(214, 214, 214);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rowThree{
+  
+    width: 100%;
+    padding: 30px;
+
+}
+.rowThree div{
+    
+}
+
+.checkbox{
+
+}
+.rowThree h3{
+    color: #000034;
+    font-weight: bold;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.parContainer{
+    width: 100%;
+}
+
+.buttons{
+    height: 20vh;
+    border-top: 1px solid rgb(214, 214, 214);
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    height: 5vh;
+    margin-top: 4vh;
+    width: 40%;
+    background: 0;
+    border-radius: 30px;
+    background: #000034;
+    color: #fbfbfb;
+    cursor: pointer;
+}
+
+.message{
+    white-space: initial;
+    overflow-wrap: break-word;
+    box-shadow:  0 0 2px grey;
+    padding: 5px;
+    height: 20vh;
+    background: #fbfbfb;
+    border-radius: 5px;
+}
+.name{
+    white-space: initial;
+    overflow-wrap: break-word;
+    box-shadow:  0 0 2px grey;
+    padding: 5px;
+    height: 30px;
+    background: #fbfbfb;
+    border-radius: 5px;
+    font-size: clamp(0.5rem, 3vw,4rem);
+}
+.nameArea{
+    width: 100%;
+    overflow-wrap: break-word;
+    box-shadow: inset 0 0 2px grey;
+    padding: 5px;
+    height: 3vh;
+    background: #fbfbfb;
+    border-radius: 5px;
+}
+.messageArea{
+    width: 100%;
+    overflow-wrap: break-word;
+    box-shadow: inset 0 0 2px grey;
+    padding: 5px;
+    height: 20vh;
+    background: #fbfbfb;
+    border-radius: 5px;
+}
+
+@media  (min-width:1280px){
+    .messageArea{
+        width: 100%;
+        overflow-wrap: break-word;
+        box-shadow: inset 0 0 2px grey;
+        padding: 5px;
+        height: 20vh;
+        background: #fbfbfb;
+        border-radius: 5px;
+        font-size: 1.5vw;
+    }
+
+    .nameArea{
+        width: 100%;
+        overflow-wrap: break-word;
+        box-shadow: inset 0 0 2px grey;
+        padding: 5px;
+        height: 3vh;
+        background: #fbfbfb;
+        border-radius: 5px;
+        font-size: clamp(1rem, 1.5vw , 1.5rem);
+    }
+    .buttons button{
+        height: 4vh;
+        margin-top: 4vh;
+        width: 48%;
+        background: 0;
+        border-radius: 30px;
+        background: #000034;
+        color: #fbfbfb;
+        cursor: pointer;
+        font-size: clamp(1rem , 1vw ,2rem);
+    }
+    .name{
+        white-space: initial;
+        overflow-wrap: break-word;
+        box-shadow:  0 0 2px grey;
+        padding: 5px;
+        height: 3vh;
+        background: #fbfbfb;
+        border-radius: 5px;
+        font-size: clamp(0.5rem, 1vw,3rem);
+    }
+
+    .message{
+        white-space: initial;
+        overflow-wrap: break-word;
+        box-shadow:  0 0 2px grey;
+        padding: 5px;
+        height: 20vh;
+        background: #fbfbfb;
+        border-radius: 5px;
+        font-size: 1.5rem;
+    }
+
+    .rowTwo{
+        height: 8vh;
+        border-top: 1px solid rgb(214, 214, 214);
+        border-bottom: 1px solid rgb(214, 214, 214);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8vw;
+    }
+    .checkbox{
+        font-size: 1.2rem;
+    }
+    .checkbox input{
+        height: ;
+        font
+    }
+}

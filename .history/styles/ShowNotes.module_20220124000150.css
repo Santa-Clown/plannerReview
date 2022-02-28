@@ -1,0 +1,15 @@
+.notes p{
+    width: 40vw;
+    height: 10vh;
+    background: wheat;
+    text-align: center;
+    border-radius:0 0 ;
+    box-shadow: 0 5px 10px black;
+    border: 5px solid black;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

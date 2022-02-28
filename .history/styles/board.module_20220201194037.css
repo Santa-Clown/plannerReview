@@ -1,0 +1,22 @@
+
+
+.board{
+    width: 100vw;
+    height: 100vh;
+    background: #fbfbfb;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+
+
+
+}
+
+
+.bluspace{
+    3vh
+}

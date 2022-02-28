@@ -1,0 +1,40 @@
+.form {
+    width: 40vw;
+    height: 50vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    justify-content: center;
+    border: 1px solid #000034;
+    border-radius: 10px;
+    mar
+}
+
+
+.name{
+
+    background: none;
+    width: 80%;
+}
+
+.message{
+    background: none;
+    width: 80%;
+    height: 20vh;
+
+}
+
+.add {
+
+    width: 75vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.in {
+    display: block;
+}

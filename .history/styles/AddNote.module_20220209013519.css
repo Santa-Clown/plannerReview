@@ -1,0 +1,27 @@
+.form{
+    width: 40vw;
+    height: 50vh;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.form input{
+    background: none;
+}
+
+.add{
+
+    width: 75vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.in{
+    display: block;
+}

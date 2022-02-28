@@ -1,0 +1,46 @@
+.notes >div{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+    border-radius:20px ;
+    background: #2e325c;
+    border-bottom: 2px solid black;
+    color: wheat;
+    font-weight: bold;
+    margin: 20px;
+    
+}
+.notes> div> div{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.notes > div > div :nth-child(1) {
+    height: 10%;
+    
+    
+
+
+}
+.notes >div > div :nth-child(2){
+    height: 80%;
+    width: 100%;
+    
+      border-top: 2px solid #c202443 ;
+      border-bottom: 2px solid #202443 ;
+}
+
+.notes div div :nth-child(3){
+    
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

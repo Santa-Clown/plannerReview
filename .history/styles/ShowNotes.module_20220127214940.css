@@ -1,0 +1,66 @@
+/* .notes >div{
+    width: 20vw;
+    height: 20vw;
+    padding: 15px;
+    text-align: center;
+    border-radius:20px ;
+    background: url(../public/images/Background.png);
+    background-size: cover;
+   
+    color: black;
+    font-weight: bold;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} */
+.notes >div{
+    height: 3vh;
+    border-bottom: 1px solid black ;
+}
+.notes {
+    width: 50%;
+    height: 100vh;
+    background: white;
+}
+.notes> div> div{
+    width: 80%;
+    height: 100%;
+    padding: 30px;
+    
+
+}
+.notes > div > div :nth-child(1) {
+    height: 10%;
+    
+    
+
+
+}
+.notes >div > div :nth-child(2){
+    height: 80%;
+    width: 100%;
+    
+      border-top: 2px solid #202443 ;
+      border-bottom: 2px solid #202443 ;
+}
+
+.notes div div :nth-child(3){
+    
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.col1{
+    width: 10%;
+    width: 10%;
+}
+    width: 10%;
+}

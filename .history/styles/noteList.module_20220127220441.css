@@ -1,0 +1,22 @@
+span.col1{
+    width: 10%;
+    background: red;
+    display: block;
+    
+    
+}
+span.col2{
+    width: 80%;
+    background: rgb(0, 113, 128);
+    display: block;
+}
+span.col3{
+    width: 10%;
+    background: rgb(234, 0, 255);
+    display: block;
+}
+
+.colums{
+    width: 100%;
+    display: flex;
+}

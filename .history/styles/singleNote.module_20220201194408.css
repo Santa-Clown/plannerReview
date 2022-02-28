@@ -1,0 +1,10 @@
+
+
+.container{
+    height: 90vh;
+    width: 20vw;
+    background: #ffffff;
+    box-shadow: 0px 10px 5px #bdbdbd;
+    border-radius: 60px 0 0 0 ;
+    transform: translateY();
+}

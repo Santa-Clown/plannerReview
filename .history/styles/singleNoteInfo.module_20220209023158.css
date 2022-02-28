@@ -1,0 +1,10 @@
+.rowOne{
+    height: 8%;
+    
+}
+.rowTwo{
+    height: 8%;
+    border-top: 2px solid rgb(190, 190, 190);
+    border-bottom: 2px solid rgb(190, 190, 190);
+    width: 100%;
+}

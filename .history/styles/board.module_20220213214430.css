@@ -1,0 +1,39 @@
+
+
+.board{
+    width: 100vw;
+    height: 100vh;
+    background: #fbfbfb;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+
+
+
+}
+
+
+.bluespace{
+    height: 100#;
+    background: #000034;
+    color: aliceblue;
+    display: flex;
+    justify-content: end;
+}
+
+.bluespace h3{
+    margin: 0;
+    padding: 20px;
+}
+.bluespace h3 button{
+    background: white;
+    border-radius: 30px;
+    height: 4vh;
+    width: 5vw;
+    cursor: pointer;
+    margin: 0 2vw;
+}

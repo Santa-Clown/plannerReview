@@ -1,0 +1,33 @@
+.form{
+    width: 40vw;
+    height: 50vh;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+
+.form input{
+    background: none;
+    width: 80%;
+}
+.form textarea{
+    background: none;
+width: 80;
+}
+
+.add{
+
+    width: 75vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.in{
+    display: block;
+}

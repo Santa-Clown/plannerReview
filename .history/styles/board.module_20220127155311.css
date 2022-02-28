@@ -1,0 +1,15 @@
+
+
+.board{
+    width: 100vw;
+    height: 90vh;
+    background: url(../public/images/board2.jpg) no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    
+    
+    
+
+
+
+}
