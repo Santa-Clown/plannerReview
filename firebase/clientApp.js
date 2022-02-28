@@ -18,12 +18,12 @@ import {
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB4M1Vk74QhnMjtcKgtE48RIiTvqueDYgg",
-    authDomain: "planner-9025b.firebaseapp.com",
-    projectId: "planner-9025b",
-    storageBucket: "planner-9025b.appspot.com",
-    messagingSenderId: "546951333498",
-    appId: "1:546951333498:web:43ec1ddc124bc437e29dc3"
+  apiKey: "AIzaSyD4FbWumk5_1boMDyfNDEjGDdZKyN-qNng",
+  authDomain: "plannerreview.firebaseapp.com",
+  projectId: "plannerreview",
+  storageBucket: "plannerreview.appspot.com",
+  messagingSenderId: "17526379723",
+  appId: "1:17526379723:web:77da3423355503d10db74e"
   };
   
   const apps = getApps()
